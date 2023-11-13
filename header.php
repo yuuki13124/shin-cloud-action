@@ -40,7 +40,7 @@
                     </div><!-- /.drop-inner -->
                 </li>
                 
-                <li <?php if( is_page('works') ) echo ' class="current"'; ?>><a href="<?php echo esc_url( home_url() ); ?>/wp-content/themes/corporate-site/works">Works</a></li>
+                <li <?php if( is_page('works') ) echo ' class="current"'; ?>><a href="<?php echo esc_url( home_url() ); ?>/works">Works</a></li>
                 <li <?php if( is_page('form') ) echo ' class="current"'; ?>><a href="<?php echo esc_url( home_url() ); ?>/wp-content/themes/corporate-site/form">お問い合わせ</a></li>
                 <li><a href="#">Facebook</a></li>
                 <li><a href="#">X</a></li>
