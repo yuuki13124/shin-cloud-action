@@ -620,7 +620,7 @@ footer{
     width: 160px;
     line-height: 50px;
     text-align: center;
-    margin: 0 10px;
+    margin: 10px;
     &:hover{
         background-color: #1794c2;
         color: #fff;
@@ -642,6 +642,15 @@ footer{
     display: flex;
     gap: 80px;
     flex-wrap: wrap;
+}
+@media (max-width:700px){
+        .filter-wrapper{
+            display: block;
+            .filter-box{
+                width: 90%;
+                margin: 0 auto 20px;
+            }
+        }
 }
 .filter-box{
     width: calc((100% - 80px) / 2);
