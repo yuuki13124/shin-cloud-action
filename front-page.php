@@ -28,7 +28,7 @@
     </div>
     <main>
         <section id="news">
-            <h2>ニュース</h2>
+            <h2>お知らせ</h2>
             <div class="news-wrapper">
                 <?php
                     $arg = array(
