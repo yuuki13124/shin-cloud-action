@@ -30,7 +30,6 @@
             <input type="radio" name="category" id="cg"><label for="cg">CGパース</label>
             <input type="radio" name="category" id="bim"><label for="bim">BIM</label>
             <input type="radio" name="category" id="vr"><label for="vr">VR/AR</label>
-            <input type="checkbox" name="sort" id="best" ><label for="best" class="sort-btn">お問い合わせ件数トップ3</label>
             <div class="filter-wrapper">
             <?php
                 $arg = array(
